@@ -1,0 +1,36 @@
+@import "Ginkgo";
+@import "bootstrap/bootstrap";
+
+
+* {
+  &, &:after, &:before {
+    vertical-align: middle ;
+    @include box-sizing(border-box);
+    @include font-smoothing(subpixel-antialiased);
+  }
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  position: relative;
+
+  display: inline-block;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  color: rgba(90, 90, 90, 1.00);
+  
+  font-weight: 400;
+  font-family: 'Roboto', 'Noto Sans TC', "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+
+  text-size-adjust: none;
+  -webkit-text-size-adjust:none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -19,7 +19,9 @@
 
     .slide__subtitle {
         display: block;
-        font-family: $font-secondary;
+        // font-family: $font-secondary;
+        font-weight: lighter;
+        letter-spacing: 5px;
         font-size: 25px;
         color: $color-gray;
         margin-bottom: 16px;

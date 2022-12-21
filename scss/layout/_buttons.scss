@@ -36,16 +36,19 @@
 
 .btn__primary {
     background-color: $color-theme;
-    color: $color-white;
+    color: $color-brown;
     border: 2px solid $color-theme;
 }
 
 .btn__primary:active,
 .btn__primary:focus,
 .btn__primary:hover {
-    background-color: $color-heading;
-    color: $color-white;
-    border-color: $color-heading;
+    // background-color: $color-heading;
+    // color: $color-white;
+    // border-color: $color-heading;
+    background-color: $color-brown;
+    color: $color-theme;
+    border: 2px solid $color-brown;
 }
 
 .btn__primary.btn__hover2:active,
@@ -268,10 +271,10 @@
 
 .btn-custom {
     position: relative;
-    font-family: $font-secondary;
-    font-size: 22px;
+    // font-family: $font-secondary;
+    font-size: 18px;
     padding: 5px 10px;
-    background-color: $color-theme;
+    background-color: $color-Lbrown;
     color: $color-white;
     margin: auto;
     width: 120px;
@@ -285,7 +288,7 @@
         bottom: -11px;
         width: 50%;
         height: 30px;
-        background-color: $color-theme;
+        background-color: $color-Lbrown;
         z-index: -1;
     }
 

@@ -5,11 +5,11 @@
     border-bottom: 0;
 
     .nav__link {
-        font-family: $font-secondary;
+        // font-family: $font-secondary;
         display: block;
         padding-bottom: 3px;
         margin-right: 30px;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 1;
         color: #333333;
         margin-bottom: 0;
@@ -35,7 +35,7 @@
 
         &.active,
         &:hover {
-            color: $color-theme;
+            color: $color-Lbrown;
 
             &:after {
                 width: 100%;

@@ -12,7 +12,8 @@
     }
 
     .menu__item-price {
-        color: $color-theme;
+        // color: $color-theme;
+        color: $color-Lbrown;
         font-size: 14px;
         font-weight: 500;
     }
@@ -27,7 +28,7 @@
         position: relative;
         line-height: 16px;
         font-size: 13px;
-        background-color: $color-theme;
+        background-color: $color-Lbrown;
         color: $color-white;
         padding-left: 5px;
         padding-right: 3px;

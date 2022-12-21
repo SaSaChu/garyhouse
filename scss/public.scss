@@ -1,6 +1,7 @@
 @import "Ginkgo";
-@import "bootstrap/bootstrap";
 
+$color-Lbrown: #CA9564;
+$color-brown: #6A3A07;
 
 * {
   &, &:after, &:before {
@@ -33,4 +34,26 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.type-brow {
+  color: $color-brown !important;
+}
+
+.type-Lgray {
+  color: #bababa !important;
+}
+
+.font13 {
+  font-size: 13px;
+}
+
+.p_ul {
+  list-style: decimal-leading-zero;
+  padding-left: 23px !important;
+}
+
+.pt-use {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }

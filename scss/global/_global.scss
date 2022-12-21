@@ -76,6 +76,11 @@ section {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    &.pt-use {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
 }
 
 img {

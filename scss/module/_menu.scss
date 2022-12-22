@@ -80,12 +80,13 @@
         }
 
         .menu__item-price {
-            position: absolute;
-            top: 0;
-            right: 0;
-            display: block;
-            min-width: 50px;
-            text-align: right;
+            // position: absolute;
+            // top: 0;
+            // right: 0;
+            // display: block;
+            // min-width: 50px;
+            // text-align: right;
+            float: right;
         }
     }
 }
@@ -335,6 +336,7 @@
         .menu-wrapper-inner {
             &:first-child {
                 padding-left: 15px !important;
+                padding-right: 15px;
             }
 
             &:last-child {

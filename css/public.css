@@ -17,3 +17,5 @@ a { text-decoration: none; }
 .p_ul { list-style: decimal-leading-zero; padding-left: 23px !important; }
 
 .pt-use { padding-top: 50px !important; padding-bottom: 50px !important; }
+
+.md-price { color: #CA9564; }

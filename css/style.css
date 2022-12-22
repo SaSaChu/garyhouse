@@ -569,7 +569,7 @@ h6 { font-size: 18px; }
 
 /*---------------------- Forms
 ----------------------*/
-.form-group { position: relative; margin-bottom: 30px; }
+.form-group { position: relative; margin-bottom: 20px; }
 
 .form-control { height: 50px; line-height: 50px; background-color: #ffffff; border: 1px solid #dbdbdb; border-radius: 2px; padding: 0 15px; font-size: 14px; width: 100%; color: #9b9b9b; }
 .form-control:focus { background-color: #ffffff; border-color: #E6CEAC; }
@@ -1636,7 +1636,7 @@ textarea.form-control { min-height: 122px; line-height: 1.5; padding-top: 10px; 
 
 .menu-layout1 .menu-item, .menu-layout5 .menu-item { padding-bottom: 11px; border-bottom: 1px dashed #dbdbdb; margin-bottom: 20px; }
 .menu-layout1 .menu-item .menu__item-title, .menu-layout5 .menu-item .menu__item-title { display: inline-block; margin-right: 10px; }
-.menu-layout1 .menu-item .menu__item-price, .menu-layout5 .menu-item .menu__item-price { position: absolute; top: 0; right: 0; display: block; min-width: 50px; text-align: right; }
+.menu-layout1 .menu-item .menu__item-price, .menu-layout5 .menu-item .menu__item-price { float: right; }
 
 .menu-layout2 .menu-item { margin-bottom: 40px; }
 .menu-layout2 .menu-item .menu__item-desc { margin-bottom: 10px; }
@@ -1678,7 +1678,7 @@ textarea.form-control { min-height: 122px; line-height: 1.5; padding-top: 10px; 
   .menu-layout2 .menu-item .menu__item-content { -ms-flex: 0 0 69.5%; flex: 0 0 69.5%; max-width: 69.5%; padding-left: 30px; } }
 @media (max-width: 992px) { .menu-layout5 .menu-wrapper { padding: 15px; }
   .menu-layout5 .menu-wrapper:before, .menu-layout5 .menu-wrapper:after { display: none; }
-  .menu-layout5 .menu-wrapper-inner:first-child { padding-left: 15px !important; }
+  .menu-layout5 .menu-wrapper-inner:first-child { padding-left: 15px !important; padding-right: 15px; }
   .menu-layout5 .menu-wrapper-inner:last-child { padding-left: 15px !important; } }
 /* Medium Size Devices */
 @media only screen and (min-width: 576px) and (max-width: 767px) { .menu-layout4 .menu-item .menu__item-content { padding: 40px; } }
